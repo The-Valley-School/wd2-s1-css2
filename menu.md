@@ -1,4 +1,4 @@
-![Ejercicio](recursos/menu.zip)
+[Ejercicio](recursos/menu.zip)
 ---
 
 Llega el momento de poner en práctica lo aprendido, para ello, vamos a hacer un menú que podríamos usar en cualquier web:
