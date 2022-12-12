@@ -1,10 +1,8 @@
-Una **pseudo-clase CSS** es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Las pseudo-clases hacen referencia a los comportamientos que pueden tener algunos elementos de HMTL y nos sirven para darles estilos respecto según el comportamiento en cada momento (pasar por encima de cierto elemento con el ratón, hacer click, visitar un enlace…) 
+Una **pseudo-clase CSS** es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. 
 
-En este video vamos a hablar de pseudo-clases. Las pseudo-clases hacen referencia a los comportamientos que pueden tener algunos elementos de HMTL y nos sirven para darles estilos respecto según el comportamiento en cada momento (pasar por encima de cierto elemento con el ratón, hacer click, visitar un enlace…) 
+Las pseudo-clases hacen referencia a los comportamientos que pueden tener algunos elemento del HTML y nos sirven para darles estilos según su estado o comportamiento en cada momento, por ejemplo, cuando pasamos por encima de cierto elemento con el ratón, hacemos click o visitamos un enlace. 
 
-La sintaxis es la siguiente:
-
- 
+La sintaxis es la siguiente: 
 
 ```css
 CLASE:PSEUDOCLASE {
@@ -12,27 +10,20 @@ CLASE:PSEUDOCLASE {
 }
 ```
 
- 
-
 ### :link
 
 Se trata de una pseudo-clase para enlaces la cual aplica estilos a enlaces que todavía no se han visitado.
-
- 
 
 ```css
 a:link {
   color: green;
 }
-```
-
-  
+``` 
 
 ### :visited
 
 Si la pseudo-clase link hacía referencia a enlaces no visitados, la pseudo-clase visited hace referencia a aquellos que sí se han visitado.
 
- 
 
 ```css
 a:visited {
@@ -40,44 +31,37 @@ a:visited {
 }
 ```
 
-  
-
 ### :hover
 
 La pseudo-clase hover nos sirve para poder aplicar estilos cuando pasamos con el ratón por encima de un elemento.
 
  
-
 ```css
 a:hover {
-	font-weigth: bold;
-	font-size: 25px;
+  font-weigth: bold;
+  font-size: 25px;
 }
 ```
-
- 
 
 ### :active
 
-La pseudo-clase active nos sirve para poder aplicar estilos cuando un elemento es activado, es decir, cuando se pulsa sobre él. Suele ser aplicado a botones y enlaces.
+Aplica estilos cuando un elemento es activado, es decir, cuando se pulsa sobre él. Se suele utilizar al clickar botones y enlaces.
 
 ```css
 button {
-	padding: 5px;
-	background-color: blue;
-	color:white;
+  padding: 5px;
+  background-color: blue;
+  color:white;
 }
 
 button:active {
-	background-color: red;
+  background-color: red;
 }
 ```
 
- 
-
 ### :focus
 
-La pseudo-clase focus aplica estilos cuando hacemos foco en el elemento.
+Para aplicar estilos cuando hacemos foco en un elemento del formulario.
 
 ```css
 /* El campo ha ganado el foco */
@@ -86,11 +70,9 @@ input:focus {
 }
 ```
 
- 
-
 ### :checked
 
-Utilizado también en formularios, podemos aplicar estilos cuando la casilla esté seleccionada
+Se suele utilizar también en formularios para aplicar estilos cuando la casilla esté seleccionada
 
 ```css
 input:checked + span {
@@ -100,7 +82,7 @@ input:checked + span {
 
 ### :enabled | :disabled
 
-Los utilizamos en formularios. En HTML tenemos la opción de añadir el atributo disabled a un elemento y así lo desactivamos.
+También se usa en formularios. Con HTML tenemos la opción de añadir el atributo disabled a un elemento y así lo inhabilitamos.
 
 ```css
 input:enabled {
@@ -114,7 +96,7 @@ input:disabled {
 
 ### :required | :optional
 
-Del mismo modo, tenemos el atributo de required en formularios, por defecto si no son opcionales.
+Del mismo modo, tenemos el atributo required para inputs obligatorios, si no lo añadimos, por defecto son opcionales. Con esta pseudo clase podemos aplicar estilos para diferenciar estos dos tipos de inputs.
 
 ```css
 input:required {
@@ -128,7 +110,7 @@ input:optional {
 
 ### :invalid | :valid
 
-Para aplicar estilos cuando cumplen o no cumplen la condición
+Sirve para aplicar estilos cuando se cumple o no se cumple una determinada condición del input.
 
 ```html
 <input type="text" name="edad" pattern="[0-9]+">
@@ -136,19 +118,17 @@ Para aplicar estilos cuando cumplen o no cumplen la condición
 
 ```css
 input:invalid {
-	color:red;
+  color:red;
 }
 
 input:valid {
-	color:green;
+  color:green;
 }
 ```
 
 ### :**out-of-range** | :**in-range**
 
-Para aplicar estilos cuando estén fuera o dentro de rango
-
- 
+Para aplicar estilos cuando estén fuera o dentro de un rango.
 
 ```html
 <input type="number" name="edad" min="0" max="18">
@@ -156,25 +136,23 @@ Para aplicar estilos cuando estén fuera o dentro de rango
 
 ```css
 input:out-of-range {
-	color:red;
+  color:red;
 }
 
 input:in-range {
-	color:green;
+  color:green;
 }
 ```
 
 ### :not
 
-Para seleccionar todos los elementos que no cumplan lo que hay entre paréntesis.
+Para seleccionar todos los elementos que no cumplen con el argumento (lo que hay entre paréntesis) de la pseudo-clase.
 
  
-
 ```html
 <p class="parrafo-principal">Párrafo principal</p>
 <p>Párrafo</p>
 <p>Párrafo</p>
-
 ```
 
 ```css
