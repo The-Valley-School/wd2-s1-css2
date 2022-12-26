@@ -1,6 +1,3 @@
-[Ejercicio](recursos/menu.zip)
----
-
 Llega el momento de poner en práctica lo aprendido, para ello, vamos a hacer un menú que podríamos usar en cualquier web:
 
 ![gif1.gif](recursos/gif1.gif)
@@ -82,3 +79,7 @@ Y por último añadimos el icono usando el pseudo-elemento ::before:
     margin-right: 35px;
 }
 ```
+
+---
+
+[Solución Ejercicio](recursos/menu.zip)
