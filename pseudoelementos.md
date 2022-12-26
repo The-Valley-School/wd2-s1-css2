@@ -8,9 +8,9 @@ CLASE::PSEUDOELEMENTO {
 }
 ```
 
-Mediante esta sintaxis estamos creando y dando estilos a un elemento virtual en el DOM
+Mediante esta sintaxis estamos creando y dando estilo a un elemento virtual en el DOM.
 
-A lo largo del vídeo vamos a tratar los pseudoelementos más importantes:
+A lo largo del vídeo hemos tratado los pseudoelementos más importantes:
 
 - ::after
 - ::before
@@ -32,7 +32,7 @@ La propiedad **::bejore** creará un  pseudoelemento que  se posicionará como e
 
 Utilizaremos la propiedad content para añadir contenido sobre los pseudoelementos que hemos creado.
 
-Podemos usarlo para indicar inicios y finales de una cita, poner emoticonos en listas…
+Podemos usarlo para indicar el inicio y final de una cita, poner emoticonos en listas…
 
 **Ejemplo lista**
 
