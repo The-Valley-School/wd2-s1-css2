@@ -5,22 +5,22 @@ Llega el momento de poner en práctica lo aprendido, para ello, vamos a hacer un
 
 ![gif1.gif](recursos/gif1.gif)
 
- Empezaremos creando la estructura HTML:
+Empezamos creando la estructura HTML:
 
 ```html
 <header class="header">
-        <nav class="menu">
-            <ul class="menu-list">
-                <li><a href="#">Sección 1</a></li>
-                <li><a href="#">Sección 2</a></li>
-                <li><a href="#">Sección 3</a></li>
-                <li><a href="#">Sección 4</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="menu">
+        <ul class="menu-list">
+            <li><a href="#">Sección 1</a></li>
+            <li><a href="#">Sección 2</a></li>
+            <li><a href="#">Sección 3</a></li>
+            <li><a href="#">Sección 4</a></li>
+        </ul>
+    </nav>
+</header>
 ```
 
-Tras ello, empezaremos con la clase header, utilizando el hover para cambiar el tamaño.
+Tras ello, diseñamos la clase header, utilizando el `hover` para cambiar el tamaño.
 
 ```css
 body{
@@ -44,7 +44,7 @@ body{
 }
 ```
 
-Seguidamente maquetamos los elementos del listado para adaptarlos al estilo:
+A continuación maquetamos los elementos del listado para adaptarlos al estilo:
 
 ```css
 .menu-list{
