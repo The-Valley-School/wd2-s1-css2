@@ -1,4 +1,4 @@
-Hemos visto en anteriores videos, que a un elemento se le pueden aplicar estilos de diferentes maneras y consecuencia de ello, puede darse el caso en que se apliquen las mismas propiedades. Por ejemplo:
+Hemos visto en anteriores videos, que a un elemento se le pueden aplicar estilos de diferentes maneras y como consecuencia de ello, puede darse el caso en que se apliquen las mismas propiedades a través de diferentes selectores. Por ejemplo:
 
  
 
@@ -13,7 +13,7 @@ h1{
 	color:green;
 }
 
-.titulo-especial{
+h1 .titulo-especial{
 	color:red;
 }
 ```
