@@ -11,7 +11,7 @@ En esta sesión la tarea se divide en dos apartados.
 Tips para la realización:
 
 - Nombre y apellidos son campos obligatorios por lo que debemos ponerles un borde de 1px azul.
-- El campo DNI muestra un borde rojo si la info introducida no es valida (`pattern="[0-9]{8}[A-Za-z]{1}”`).
+- El campo DNI muestra un borde rojo si la info introducida no es valida (`pattern="[0-9]{8}[A-Za-z]{1}"`).
 - El botón cambia de color a verde cuando nos situamos encima y a negro cuando haces click.
 - La sección del formulario tiene que estar centrada horizontalmente sobre el body.
 - Para la sombra de la sección usar:
