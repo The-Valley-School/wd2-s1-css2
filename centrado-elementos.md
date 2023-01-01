@@ -2,7 +2,7 @@ Antes de entrar a ver otros apartados de CSS como puede ser el responsive, vamos
 
 ## CENTRANDO ELEMENTOS HORIZONTALMENTE
 
-Uno de los retos que nos solemos encontrar a la hora de estilar una página web es la de centrar elementos horizontalmente. Hay muchas formas de llevarlos a cabo, vamos a ver unas cuantas:
+Uno de los retos que nos solemos encontrar a la hora de estilar una página web es la de centrar elementos horizontalmente. Hay muchas formas de llevarlo a cabo, vamos a ver unas cuantas:
 
 ### CENTRADO HORIZONTAL PARA BLOCKS
 
